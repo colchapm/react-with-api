@@ -6,11 +6,6 @@ let initialState = {
   error: null
 }
 
-// const defaultState = {
-//   isLoading: false,
-//   headlines: [],
-//   error: null
-// }
 
 export default (state = initialState, action) => {
   switch (action.type) {
